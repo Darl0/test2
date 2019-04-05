@@ -1,4 +1,16 @@
+mkdir test2
+cd test2
 初始化版本库 git init
 创建文件
-提交到版本库 git add
+提交到暂存区 git add test2.txt
+git add .
+git diff  工作区文件（未add）与暂存区（上次add）
+git diff --cached 暂存区文件与仓库分支里 上次commit
+查看有多少不同 git diff test2.txt
 提交说明 git commit -m "说明"
+git log
+git log --pretty oneline
+git reset -- hard HEAD^
+git reset -- hard HEAD~3
+git reset --hard 02w3
+git reflog
