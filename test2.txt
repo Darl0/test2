@@ -5,7 +5,7 @@ cd test2
 提交到暂存区 git add test2.txt
 git add .
 git diff  工作区文件（未add）与暂存区（上次add）
-git diff --cached 暂存区文件与仓库分支里 上次commit
+git diff --cached 暂存区文件（add后的）与仓库分支里（上次commit）
 查看有多少不同 git diff test2.txt
 提交说明 git commit -m "说明"
 git log
