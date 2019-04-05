@@ -15,3 +15,13 @@ git reset -- hard HEAD^
 git reset -- hard HEAD~3
 git reset --hard 02w3
 git reflog
+
+add前
+git checkout -- test2
+add 后,未commit
+git reset --hard test2
+git checkout -- test2
+commit后
+git reset --hard 02w3
+rm test1.txt
+git commit -m "remove test1"
