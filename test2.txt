@@ -1,1 +1,4 @@
 初始化版本库 git init
+创建文件
+提交到版本库 git add
+提交说明 git commit -m "说明"
