@@ -23,5 +23,13 @@ git reset --hard test2
 git checkout -- test2
 commit后
 git reset --hard 02w3
+删除文件，需要提交commit
 rm test1.txt
 git commit -m "remove test1"
+在本地库的文件夹下运行gitbash
+git remote add origin gitSSH
+git push -u origin master
+git push origin master
+git 克隆
+git clone git@github.com:Darl0/gitskill.git
+向上一级 cd ..
