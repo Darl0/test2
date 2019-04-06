@@ -36,3 +36,6 @@ git clone git@github.com:Darl0/gitskill.git
 ls 显示本文件夹所有文件
 git切换分支容易
 创建分支、切换分支
+git checkout -b bran 创建分支
+git branch bran 切换到分支bran
+git branch 查看当前所有分支
