@@ -15,7 +15,6 @@ git reset -- hard HEAD^
 git reset -- hard HEAD~3
 git reset --hard 02w3
 git reflog
-
 add前
 git checkout -- test2
 add 后,未commit
@@ -36,6 +35,12 @@ git clone git@github.com:Darl0/gitskill.git
 ls 显示本文件夹所有文件
 git切换分支容易
 创建分支、切换分支
-git checkout -b bran 创建分支
-git branch bran 切换到分支bran
+git checkout -b bran 创建并切换到分支
+git branch bran 创建分支bran
+git checkout bran 切换到分支bran
 git branch 查看当前所有分支
+git merge bran 将bran分支的提交合并到当前所在分支
+git branch -d bran 删除bran分支
+两个分支无法合并时，手动编辑文件
+git log --graph --pretty=oneline --abbrev-commit查看分支合并图
+git merge --no-ff -m "merge with no-ff" dev 关闭快速合并，以查看在分支上操作
