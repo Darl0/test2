@@ -52,3 +52,4 @@ git branch -b b0新建分支做新的功能
 git branch -D b0强制删除未合并的需要舍弃的分支
 远程仓库默认origin分支
 git pull拉取最新的提交，无论分支？
+删除分支
