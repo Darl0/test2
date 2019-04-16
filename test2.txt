@@ -48,8 +48,8 @@ git merge --no-ff -m "merge with no-ff" dev 关闭快速合并，以查看在分
 git stash先暂存当前状态
 git stash list修复后查看暂存点
 git stash apply恢复后stash内容不删除，git stash pop 恢复并删除stash内容
-git branch -b b0新建分支做新的功能
-git branch -D b0强制删除未合并的需要舍弃的分支
+git branch -b bugfix新建分支做新的功能
+git branch -D bugfix强制删除未合并的需要舍弃的分支
 远程仓库默认origin分支
 git pull拉取所在分支最新的提交
 git branch --set-upstream-to <branch-name> origin/<branch-name>建立连接
@@ -58,4 +58,10 @@ git branch --set-upstream-to <branch-name> origin/<branch-name>建立连接
 中间遇到问题，部分不可提交，（commit -a 会出现一个linux 编辑器 ：wq 保存退出）
 git commit -a -m "全部提交"
 （Git在使用过程中遭遇了奔溃，部分被上锁资源没有被释放，删除 index.head）
+git rebase 把本地未push的分叉提交历史整理成直线
 git log --graph --pretty=oneline --abbrev-commit查看分支合并情况、合并图、一行显示、提交代码缩略
+git tag v0.1 在分支上打标签
+git tag v0.9 f52c633 在以前的提交上打标签
+git tag -a v0.1 -m "version 0.1 released" 1094adb 为标签添加文字描述
+git tag 按照标签的字母排序
+git show v0.1 查看标签具体信息
