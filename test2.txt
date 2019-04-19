@@ -78,3 +78,4 @@ git push -u github master
 git push -u gitee master
 切换分支未成功，要求暂存更改或提交，提交并推送后进行分支合并
 合并分支出现界面要求输入commit，i进行编辑，Esc退出编辑:wq保存退出）
+git config --global color.ui true将
