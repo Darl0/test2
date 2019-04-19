@@ -42,3 +42,4 @@ System.out.print("Hello World")
 |列1的内容1|列2的内容1|
 |列1的内容2|列2的内容2|
 <img src="https://avatars1.githubusercontent.com/u/45053124?s=460&v=4" width="150" height="150" alt="图片加载失败时，显示这段字"/>
+<div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
