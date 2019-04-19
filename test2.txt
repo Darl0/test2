@@ -52,8 +52,12 @@ git stash apply恢复后stash内容不删除，git stash pop 恢复并删除stas
 git branch -b bugfix新建分支做新的功能
 git branch -D bugfix强制删除未合并的需要舍弃的分支
 远程仓库默认origin分支
+拉取到最新修定版本之后解决冲突再进行提交合并
+git remote查看远程库信息
+git remote -v查看远程库详细信息
 git pull拉取所在分支最新的提交
 git branch --set-upstream-to <branch-name> origin/<branch-name>建立连接
+进入项目目录，add，commit，push
 删除分支
 这里是原始文件
 中间遇到问题，部分不可提交，（commit -a 会出现一个linux 编辑器 i进入编辑 Esc退出编辑 :wq保存退出）
@@ -78,4 +82,5 @@ git push -u github master
 git push -u gitee master
 切换分支未成功，要求暂存更改或提交，提交并推送后进行分支合并
 合并分支出现界面要求输入commit，i进行编辑，Esc退出编辑:wq保存退出）
-git config --global color.ui true将
+git config --global color.ui true设置文件显示字体颜色
+
