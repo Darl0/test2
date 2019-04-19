@@ -26,9 +26,10 @@ git reset --hard 02w3
 rm test1.txt
 git commit -m "remove test1"
 在本地库的文件夹下运行gitbash
-git remote add origin gitSSH
-git push -u origin master
-git push origin master
+git remote add origin git@git@github.com:Darl0/test2.git将本地库与git库关联
+git remote -v
+git push -u origin master第一次将本地更改推送到云端
+git push origin master将本地更改推送到云端
 git 克隆
 git clone git@github.com:Darl0/gitskill.git
 向上一级 cd ..
@@ -65,3 +66,13 @@ git tag v0.9 f52c633 在以前的提交上打标签
 git tag -a v0.1 -m "version 0.1 released" 1094adb 为标签添加文字描述
 git tag 按照标签的字母排序
 git show v0.1 查看标签具体信息
+git push origin <tagname> 推送tag到远程
+git tag d- <tagname> 删除本地标签
+git push origin :ref/tags/v0.9
+git push origin --tags 推送所有标签
+git remote -v查看远程库信息
+git remote rm origin删除已有d的origin远程库
+git remote add github git@github.com:Darl0/test2.git在GitHub上新建远程库名为github
+git remote add gitee git@gitee.com:Darl0/test2.git在码云gitee上新建远程库关联名为gitee
+git push -u github master 
+git push -u gitee master
